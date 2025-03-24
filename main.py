@@ -58,7 +58,7 @@ async def category_handler(update: Update, context: ContextTypes.DEFAULT_TYPE):
     
     await context.bot.send_photo(
         chat_id=query.message.chat_id,
-        photo=open("sektor-gaza-istoriya-gruppy.jpeg", "rb"),
+        photo=open("livci.jpg", "rb"),
         caption="Выберите сектор:",
         reply_markup=SECTORS
     )
